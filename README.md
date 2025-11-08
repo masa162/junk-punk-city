@@ -80,6 +80,25 @@ hugo new characters/character-name.md
 └── .gitignore
 ```
 
+## GitHub Pagesへのデプロイ
+
+このリポジトリはGitHub Actionsによる自動デプロイに対応しています。
+
+### 初回設定
+
+1. GitHubリポジトリの **Settings** → **Pages** を開く
+2. **Source** を「GitHub Actions」に設定
+3. `main` ブランチにpushすると自動的にデプロイされます
+
+### デプロイURL
+
+デプロイ後、以下のURLでアクセスできます：
+- https://masa162.github.io/junk-punk-city/
+
+### 手動デプロイ
+
+GitHub Actionsタブから「Deploy to GitHub Pages」ワークフローを手動実行することもできます。
+
 ## ライセンス
 
 このプロジェクトのコンテンツは著作権で保護されています。
@@ -88,3 +107,4 @@ hugo new characters/character-name.md
 
 - [CMC Hugo Theme](https://github.com/masa162/cmc-hugo-theme)
 - [Hugo Documentation](https://gohugo.io/documentation/)
+- [公開サイト](https://masa162.github.io/junk-punk-city/) （GitHub Pages）
